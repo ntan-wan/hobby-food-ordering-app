@@ -13,12 +13,12 @@ export function CustomSidebar() {
     const menuItems = [
 		{ id: "store", label: "Store", icon: "store", link: "/store" },
 		{ id: "home", label: "Home", icon: "house", link: "/home" },
-		{ id: "discount", label: "Discount", icon: "circle-percent", link: "/discount" },
-		{ id: "report", label: "Report", icon: "table", link: "/report" },
-		{ id: "mail", label: "Mail", icon: "mail", link: "/mail" },
-		{ id: "notification", label: "Notification", icon: "bell", link: "/notification" },
-		{ id: "settings", label: "Settings", icon: "settings", link: "/settings" },
-		{ id: "logout", label: "Log Out", icon: "log-out", link: "/logout" },
+		{ id: "discount", label: "Discount", icon: "circle-percent", link: "/home" },
+		{ id: "report", label: "Report", icon: "table", link: "/home" },
+		{ id: "mail", label: "Mail", icon: "mail", link: "/home" },
+		{ id: "notification", label: "Notification", icon: "bell", link: "/home" },
+		{ id: "settings", label: "Settings", icon: "settings", link: "/home" },
+		{ id: "logout", label: "Log Out", icon: "log-out", link: "/home" },
 	];
 
     return (
