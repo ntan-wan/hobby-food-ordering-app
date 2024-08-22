@@ -50,7 +50,7 @@ export function CustomTabs({ children, className, ...props }: IPropsTabs) {
 	const [activeTab, setActiveTab] = useState(0);
 
     return (
-        <Tabs className={cn(className)}>
+        <Tabs  defaultValue="tab1" className={cn(className)}>
             <TabsList className={cn(variants.base)}>
                 <TabsTrigger value="tab1" className={cn(tabsTriggerVariants.base)} onClick={() => setActiveTab(0)}>
                     Tab 1
